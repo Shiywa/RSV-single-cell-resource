@@ -1,0 +1,39 @@
+{
+  "source_label": "Yoshida_airway",
+  "classification": "RECONSTRUCTION_WITH_CONDITIONS",
+  "input": {
+    "relative_file": "Sanger_release2/meyer_nikolic_covid_airway_raw.h5ad",
+    "original_url": "https://covid19.cog.sanger.ac.uk/submissions/release2/meyer_nikolic_covid_airway_raw.h5ad",
+    "bytes": 2454133104,
+    "expected_frozen_sha256": "143c7e8042461862b6a1426bb36b5099c410895bc30106ef094bce2661d8b73b",
+    "local_md5": "9eca51b474b691edeb137a539ccc4f3b",
+    "current_multipart_etag": "b7f45d42ecb684ca987b037d2958795c-157",
+    "portal_whole_md5_matches_frozen": false
+  },
+  "frozen_selection": "curated_metadata/expression_provenance/full_frozen_selection.parquet",
+  "source_object_inventory": "curated_metadata/expression_provenance/SOURCE_OBJECTS.json",
+  "native_feature_order": "curated_metadata/features/frozen_reconstruction/human_NATIVE_FEATURE_ORDER.tsv",
+  "source_gene_maps_index": "curated_metadata/features/frozen_reconstruction/human_MAP_INDEX.tsv",
+  "species_measurement_mask": "curated_metadata/features/gene_availability/human_gene_availability.npz",
+  "source_var": "curated_metadata/features/Yoshida_airway_var.parquet",
+  "selected_cells": 114135,
+  "qc_groups": 54,
+  "count_layer": "X (raw-count matrix; not raw reads)",
+  "reconstruction_execution_this_closure": "NOT_RUN",
+  "existing_rebuild_cli": "scripts/rebuild_original_sources.py",
+  "rebuild_cli_additional_dependency": "The existing verifier needs an authorised certified species-native H5AD directory via --frozen-dir; those parent matrices are not deposited in the reviewed compilation. Acquisition/read/join are supported; end-to-end exact project H5AD reconstruction is not certified by this recipe.",
+  "conditions": [
+    "Use only original officially accessible processed object; respect original applicable terms.",
+    "Verify frozen SHA256 before matching cell barcodes and original count layer; do not use catalog MD5 as if it matched.",
+    "Preserve fixed retained keys and source-native namespaces; do not refit QC or infer new annotations.",
+    "Direct redistribution of the project source H5AD/NPZ/map is not confirmed; those three canonical assets remain undeployed."
+  ],
+  "internal_prior_reconstruction_evidence": {
+    "status": "PASS_EXISTING_INTERNAL_VALIDATION",
+    "retained_cells": 114135,
+    "capture_groups": 54,
+    "count_differences": 0,
+    "measurement_mask_differences": 0,
+    "independent_external_lab_validation": false
+  }
+}

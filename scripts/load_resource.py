@@ -50,7 +50,12 @@ def trace(root,cell_uid):
     p=metadata_root(root)/'metadata/resource.sqlite'
     if p.is_file():
         c=sqlite3.connect('file:'+str(p.resolve())+'?mode=ro',uri=True);c.row_factory=sqlite3.Row
-        out=[dict(r) for r in c.execute('select * from publication_expression_mapping where cell_uid=?',[cell_uid])];c.close();return out
+        out=[dict(r) for r in c.execute('select * from publication_expression_mapping where cell_uid=?',[cell_uid])];c.close()
+        for row in out:
+            present=(Path(root)/row['source_h5ad_file']).is_file()
+            row['expression_file_present_locally']=present
+            row['expression_dependency_status']='LOCAL_FILE_PRESENT_REQUIRES_DIGEST_CHECK' if present else ('SOURCE_ACQUISITION_SUPPORTED_PROJECT_DERIVATIVE_NOT_DEPOSITED' if row['source_h5ad_file'].endswith('Yoshida_airway.h5ad') else 'FETCH_REVIEWED_SOURCE_H5AD_REQUIRED')
+        return out
     m=cells(root);return m[m.cell_uid.eq(cell_uid)].to_dict('records')
 
 def main():

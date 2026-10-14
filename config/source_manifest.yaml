@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-publication-packaging-rc1",
+  "version": "1.1.0-reviewer-access-candidate",
   "sources": [
     {
       "source_label": "Berg_ALI",
@@ -11,7 +11,12 @@
       "retained_cells": 19600,
       "actual_measured_features": 33694,
       "target_h5ad": "expression/Berg_ALI.h5ad",
-      "redistribution_status": "SOURCE_ASSET_PUBLIC_ELIGIBLE; project annotation separate"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "0fcb6f65234eb9017055c9128e89bff816c1541a2b26a408c64e4a311b569b15",
+      "h5ad_bytes": 205771104,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     },
     {
       "source_label": "CD1c_DC",
@@ -23,7 +28,12 @@
       "retained_cells": 40283,
       "actual_measured_features": 28669,
       "target_h5ad": "expression/CD1c_DC.h5ad",
-      "redistribution_status": "PERMISSION_REVIEW_REQUIRED"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "2e10070e1cb8ac63924847f8d26ac5285f320a3812c69252ced22bb469c6a3f7",
+      "h5ad_bytes": 148844985,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     },
     {
       "source_label": "Down_syndrome",
@@ -35,7 +45,12 @@
       "retained_cells": 49930,
       "actual_measured_features": 20025,
       "target_h5ad": "expression/Down_syndrome.h5ad",
-      "redistribution_status": "PERMISSION_REVIEW_REQUIRED"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "1efdb17c51964bdcd83656e90c4741615f3da3b6eb3d5745a773ceca7022def6",
+      "h5ad_bytes": 434388905,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     },
     {
       "source_label": "HLCA",
@@ -47,7 +62,12 @@
       "retained_cells": 528604,
       "actual_measured_features": 27402,
       "target_h5ad": "expression/HLCA.h5ad",
-      "redistribution_status": "SOURCE_ASSET_PUBLIC_ELIGIBLE; project annotation separate"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "4ad474fd7a2177217eff2440b614ede30086743952867f441f3215fbe429bdfb",
+      "h5ad_bytes": 2483582553,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     },
     {
       "source_label": "Infant_PBMC",
@@ -59,7 +79,12 @@
       "retained_cells": 431850,
       "actual_measured_features": 36601,
       "target_h5ad": "expression/Infant_PBMC.h5ad",
-      "redistribution_status": "PERMISSION_REVIEW_REQUIRED"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "e00999b9f900f14cd7ed92bcb65490cc6f0f596a98034f8ee3fc980387b3a050",
+      "h5ad_bytes": 2034387494,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     },
     {
       "source_label": "Infant_adult_ALI",
@@ -71,7 +96,12 @@
       "retained_cells": 120729,
       "actual_measured_features": 36601,
       "target_h5ad": "expression/Infant_adult_ALI.h5ad",
-      "redistribution_status": "PERMISSION_REVIEW_REQUIRED"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "3c34ad11fbe9a1316c5692c003180f43d6390891e5c9b842123adb1b0c43787f",
+      "h5ad_bytes": 380773217,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     },
     {
       "source_label": "Qin_cotton_rat",
@@ -83,7 +113,12 @@
       "retained_cells": 269944,
       "actual_measured_features": 21667,
       "target_h5ad": "expression/Qin_cotton_rat.h5ad",
-      "redistribution_status": "SOURCE_ASSET_PUBLIC_ELIGIBLE; project annotation separate"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "70ef08c5ba017f52d718fb66a904e7efc48fe039f9d433852b14d1c252aa0ba6",
+      "h5ad_bytes": 960639693,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     },
     {
       "source_label": "RSV_history_wheeze",
@@ -95,7 +130,12 @@
       "retained_cells": 52943,
       "actual_measured_features": 36601,
       "target_h5ad": "expression/RSV_history_wheeze.h5ad",
-      "redistribution_status": "PERMISSION_REVIEW_REQUIRED"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "98d3effef91d63a290da24ccf9fba65e052aa07461193b6bfff79e187b4141c4",
+      "h5ad_bytes": 346482659,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     },
     {
       "source_label": "RelA_mouse",
@@ -107,7 +147,12 @@
       "retained_cells": 84967,
       "actual_measured_features": 19059,
       "target_h5ad": "expression/RelA_mouse.h5ad",
-      "redistribution_status": "PERMISSION_REVIEW_REQUIRED"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "1814a2749a8010a51b45a8f6a335e37aef5c87987beb46baaf1e2865ba1ff0ed",
+      "h5ad_bytes": 363594563,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     },
     {
       "source_label": "Sunshine",
@@ -119,7 +164,12 @@
       "retained_cells": 42836,
       "actual_measured_features": 33538,
       "target_h5ad": "expression/Sunshine.h5ad",
-      "redistribution_status": "PERMISSION_REVIEW_REQUIRED"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "fe33e17bdbb4b51e7937140a84ae277a9ed3d5ca18e80c4b97a45c8d4137487a",
+      "h5ad_bytes": 376467878,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     },
     {
       "source_label": "Yoshida_airway",
@@ -131,7 +181,13 @@
       "retained_cells": 114135,
       "actual_measured_features": 33582,
       "target_h5ad": "expression/Yoshida_airway.h5ad",
-      "redistribution_status": "PERMISSION_REVIEW_REQUIRED"
+      "redistribution_status": "DIRECT_DERIVATIVE_REDISTRIBUTION_NOT_CONFIRMED",
+      "h5ad_sha256": "b6b7e433f3a4a7014fc76bffff9909d7418450f2ff9c987a39e1b97f29d5a9a2",
+      "h5ad_bytes": 552724208,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "NOT_DEPOSITED",
+      "original_source_acquisition": "SOURCE_ACQUISITION_SUPPORTED",
+      "reconstruction": "RECONSTRUCTION_WITH_CONDITIONS; exact frozen reconstruction NOT_RUN"
     },
     {
       "source_label": "iAT2_macrophage",
@@ -143,7 +199,12 @@
       "retained_cells": 37983,
       "actual_measured_features": 18130,
       "target_h5ad": "expression/iAT2_macrophage.h5ad",
-      "redistribution_status": "PERMISSION_REVIEW_REQUIRED"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "77e40bed4c1f5ffef5334a4095cf1d18850b686b893710aae835fdf2f4623bcb",
+      "h5ad_bytes": 413671986,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     },
     {
       "source_label": "iPSC_organoid",
@@ -155,7 +216,12 @@
       "retained_cells": 32393,
       "actual_measured_features": 36614,
       "target_h5ad": "expression/iPSC_organoid.h5ad",
-      "redistribution_status": "PERMISSION_REVIEW_REQUIRED"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "e5b38fb2a01f5eaf9cc7342e92940dafb540af56fa89c9e70e64c7ffee8dd796",
+      "h5ad_bytes": 390410728,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     },
     {
       "source_label": "nasal_submerged_model",
@@ -167,7 +233,12 @@
       "retained_cells": 920,
       "actual_measured_features": 18679,
       "target_h5ad": "expression/nasal_submerged_model.h5ad",
-      "redistribution_status": "PERMISSION_REVIEW_REQUIRED"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "e50d827888cecb3ec1e135f82f77566f2c64334224d0307cf4005d32f653b3d5",
+      "h5ad_bytes": 11888402,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     },
     {
       "source_label": "pathogen_specific_TRM",
@@ -179,9 +250,19 @@
       "retained_cells": 647625,
       "actual_measured_features": 36601,
       "target_h5ad": "expression/pathogen_specific_TRM.h5ad",
-      "redistribution_status": "PERMISSION_REVIEW_REQUIRED"
+      "redistribution_status": "SOURCE_SPECIFIC_REVIEWED_PRIVATE_SCOPE; original terms retained; no blanket CC licence",
+      "h5ad_sha256": "0cbe7e281d39c2a11f463bb90bb5b65e1b33757f213be7a3126ad9e4a38380eb",
+      "h5ad_bytes": 1903571030,
+      "archive_access": "PRIVATE_UNPUBLISHED; CONFIDENTIAL_REVIEWER_ACCESS_MANAGED_SEPARATELY",
+      "server_h5ad_state": "AVAILABLE_VERIFIED",
+      "original_source_acquisition": "SUPPORTED_BY_SOURCE_SPECIFIC_PUBLIC_PROCESSED_ROUTE"
     }
   ],
   "format": "JSON is a YAML1.2 subset",
-  "account_quota": "UNKNOWN; user pending"
+  "account_quota": "UNKNOWN; user pending",
+  "expression_packaging_version": "1.0.0-publication-packaging-rc1",
+  "curated_staging_version": "1.1.0-final-deposition-private",
+  "annotation_version": "annotation_gate2b_v0.1",
+  "frozen_cells": 2474742,
+  "public_code_base_commit": "71b9f0497b01d11fc00b769a97ffdf14c5fbc42a"
 }
