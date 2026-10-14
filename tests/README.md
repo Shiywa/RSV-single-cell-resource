@@ -1,0 +1,1 @@
+Actual executed source/count/mask/metadata and relocated-copy tests are run by scripts/validate_resource.py. Tests compare genuine exported counts to predetermined frozen marker references; no independent biological truth is inferred. Use --forbidden-root to exclude historical data and the original release in relocation checks.

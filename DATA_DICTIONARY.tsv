@@ -1,0 +1,21 @@
+table	field	meaning	missing
+obs	cell_uid	Unique immutable compilation UID; also obs_names. Original IDs remain separate.	NULL/missing retained; unmeasured counts undefined
+obs	native_row_index	Zero-based row of the original frozen species-native object; not this source H5AD row.	NULL/missing retained; unmeasured counts undefined
+metadata	expression_row_index	Zero-based row in source_h5ad_file; unique with source file. Source native order is preserved.	NULL/missing retained; unmeasured counts undefined
+obs	count_technology	Source-specific molecular/UMI/probe/read semantics from audited inventory, not generic10x assumption.	NULL/missing retained; unmeasured counts undefined
+obs	source_author_identity	Original licensed HLCA author label only; NULL outside HLCA. No project Gate2B label or independent truth.	NULL/missing retained; unmeasured counts undefined
+var	native_gene_id	Exact unique frozen species-native ID, unchanged; var_names matches this native ID.	NULL/missing retained; unmeasured counts undefined
+var	source_gene_id	Original upstream source ID(s); single string or JSON array across captures. Duplicates are retained and resolved by the explicit native/capture map.	NULL/missing retained; unmeasured counts undefined
+var	original_feature_index	Zero-based species-native frozen input column. Upstream original source ordinal is separately UNKNOWN/NULL if not in archived mapping.	NULL/missing retained; unmeasured counts undefined
+var	gene_symbol	Frozen native symbol, unchanged. Cross-species aliases are not substituted for gene IDs.	NULL/missing retained; unmeasured counts undefined
+var	host_gene_flag	Inherited host-analysis feature flag; source union retains all actually measured native features, not just marker genes.	NULL/missing retained; unmeasured counts undefined
+var	species_namespace	Independent human/mouse/cotton namespace. No gene union or ortholog replacement across species.	NULL/missing retained; unmeasured counts undefined
+var	mapping_status	Single/capture-specific source-ID mapping status, not annotation accuracy.	NULL/missing retained; unmeasured counts undefined
+features/NPZ	libraries	Exact qc_group_id keys corresponding to mask rows.	NULL/missing retained; unmeasured counts undefined
+features/NPZ	genes	Exact native_gene_id vector in local H5AD column order.	NULL/missing retained; unmeasured counts undefined
+features/NPZ	availability	Boolean capture×gene mask. False is unmeasured, never a measured zero.	NULL/missing retained; unmeasured counts undefined
+features/NPZ	native_feature_indices	Map source-local column to frozen species-native column.	NULL/missing retained; unmeasured counts undefined
+features	supplementary_homology_symbol	Held unified metadata only; never replaces native cotton IDs or changes counts.	NULL/missing retained; unmeasured counts undefined
+annotation	gate2b_version	Inherited annotation_gate2b_v0.1. New packaging version is separate.	NULL/missing retained; unmeasured counts undefined
+annotation	gate2b_review_status	PENDING/inherited status retained; does not establish independent confirmation.	NULL/missing retained; unmeasured counts undefined
+comparison	analysis_suitability	Frozen focus45 conditional/hold judgment; not 407 independent experiments.	NULL/missing retained; unmeasured counts undefined

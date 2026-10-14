@@ -1,0 +1,12 @@
+name: rsv-publication-reader
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - anndata=0.12.3
+  - numpy=2.2.6
+  - pandas=2.3.3
+  - scipy=1.16.3
+  - h5py=3.14.0
+  - pyarrow=25.0.1
+  - threadpoolctl
