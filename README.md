@@ -6,7 +6,7 @@ Source-specific expression, unified cross-study metadata, versioned annotation, 
 
 The complete internal collection contains 2,474,742 cells across 15 source labels. The source-minimized deposit scope contains 818,148 cells from Berg_ALI, Qin_cotton_rat and HLCA in three source-specific H5ADs. Exact integer counts, original gene namespaces and source-level measurement masks are preserved. These scopes have different access and permission conditions.
 
-Figshare authentication and private upload testing have succeeded. Permitted source-minimized assets are being archived as unpublished private drafts. No public project data download URL or project DOI is available. The repository does not contain expression matrices, clinical metadata, credentials or the complete project annotations. Original publicly available source-file URLs and checksums are listed in config/verified_source_downloads.tsv.
+Figshare authentication and private upload testing have succeeded. The 27 permitted source-minimized assets have been archived as four unpublished private drafts. No public project data download URL or project DOI is available. The repository does not contain expression matrices, clinical metadata, credentials or the complete project annotations. Original publicly available source-file URLs and checksums are listed in config/verified_source_downloads.tsv.
 
 ## Installation and use
 
